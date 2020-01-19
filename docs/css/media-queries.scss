@@ -1,0 +1,149 @@
+@media (min-width: 360px) {
+
+    html, body, input, button, select {
+        font-size: 10px;
+    }
+
+    .container {
+        header {
+            margin-left: 5%; /* 80px */  
+        }
+    }
+}
+
+@media (min-width: 540px) {
+
+    html, body, input, button, select {
+        font-size: 12px;
+    }
+
+    nav {
+        div {
+            width: var(--container-width);
+
+            ul {
+                width: 60%;
+            }
+        }
+    }
+
+    .container {
+        header {
+            margin-left: 5%; /* 80px */ 
+        }
+    }
+}
+
+@media (min-width: 820px) {
+
+    html, body, input, button, select {
+        font-size: 13px;
+    }
+
+    nav {
+        div {
+            width: var(--container-width);
+
+            ul {
+                width: 60%;
+            }
+        }
+    }
+
+    .container {
+        header {
+            margin-left: 5%; /* 80px */  
+        }
+        
+        main {   
+            section.dec {
+                .grupo {
+
+                    flex-direction: row;
+                    
+                    div {
+                        width: 49%;
+                        height: calc((var(--container-width) / 2) * 0.5406);/* 260px */
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pop-up-description {
+        .content {
+            flex-direction: column;
+
+            & > img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 960px) {
+
+    :root {
+        --container-width: 75vw;
+        --tablet-width: calc(var(--container-width));
+    }
+
+    html, body, input, button, select {
+        font-size: 14px;
+    }
+
+    nav {
+        div {
+            width: var(--container-width);
+
+            ul {
+                width: 60%;
+            }
+        }
+    }
+
+    .container {
+        header {
+            margin-left: 5%; /* 80px */ 
+        }
+
+
+        main {   
+            section.dec {
+                .grupo {
+
+                    flex-direction: row;
+                    
+                    div {
+                        width: 49%;
+                        height: calc((var(--container-width) / 2) * 0.5406);/* 260px */
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pop-up-description {
+        .content {
+            flex-direction: column;
+
+            & > img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+
+    :root {
+        --container-width: 1360px;
+    }
+
+    html, body, input, button, select {
+        font-size: 16px;
+    }
+}
+
