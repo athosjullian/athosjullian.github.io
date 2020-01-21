@@ -451,6 +451,10 @@ nav > div ul li a:hover, nav > div ul li a:active {
   background-image: url(../assets/CFO.png);
 }
 
+.container section.dec .grupo > div .projeto4 {
+  background-image: url(../assets/ex.jpg);
+}
+
 .container section.contato {
   width: 100%;
   margin-bottom: 100px;
@@ -667,10 +671,18 @@ footer div ul svg:hover, footer div ul svg:active {
           flex-direction: row;
   width: 100%;
   margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.content div .btn-design {
+.content div .btn-design-1 {
   width: 100%;
+  margin-top: 25px;
+}
+
+.content div .btn-design-2 {
+  width: 49%;
   margin-top: 25px;
 }
 

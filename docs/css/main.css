@@ -391,18 +391,12 @@ nav > div ul li a:hover, nav > div ul li a:active {
   /* 360px */
   margin: 0 auto;
   top: 8.3654%;
-  /* box-shadow: inset -30px -2px 30px rgba(18, 18, 18, .1),
-                                    inset 30px 2px 30px rgba(44, 44, 44, .8); */
   background: -webkit-gradient(linear, left top, right bottom, from(#242424), color-stop(70%, #181818));
   background: linear-gradient(to bottom right, #242424, #181818 70%);
   background-image: url(../assets/photo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  /* Brilho de tela;
-                        box-shadow: 1px 1px 40px #2c2c2c,
-                                    -1px -1px 40px #2c2c2c; 
-                        */
 }
 
 .container section.dec .grupo {
@@ -455,6 +449,10 @@ nav > div ul li a:hover, nav > div ul li a:active {
 
 .container section.dec .grupo > div .projeto3 {
   background-image: url(../assets/CFO.png);
+}
+
+.container section.dec .grupo > div .projeto4 {
+  background-image: url(../assets/ex.jpg);
 }
 
 .container section.contato {
@@ -673,10 +671,18 @@ footer div ul svg:hover, footer div ul svg:active {
           flex-direction: row;
   width: 100%;
   margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.content div .btn-design {
+.content div .btn-design-1 {
   width: 100%;
+  margin-top: 25px;
+}
+
+.content div .btn-design-2 {
+  width: 49%;
   margin-top: 25px;
 }
 

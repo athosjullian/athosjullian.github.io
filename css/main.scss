@@ -381,7 +381,6 @@ nav {
             justify-content: space-between;
             flex-direction: column;
             flex-wrap: wrap;
-
             
             & > div {
                 width: 98%;
@@ -419,6 +418,10 @@ nav {
                 
                 .projeto3 {
                     background-image: url(../assets/CFO.png);
+                }
+
+                .projeto4 {
+                    background-image: url(../assets/ex.jpg);
                 }
 
             }
@@ -627,10 +630,16 @@ footer {
             flex-direction: row;
             width: 100%;
             margin-top: 5%;
+            align-items: center;
         }
 
-        .btn-design {
+        .btn-design-1 {
             width: 100%;
+            margin-top: 25px;
+        }
+
+        .btn-design-2 {
+            width: 49%;
             margin-top: 25px;
         }
     }

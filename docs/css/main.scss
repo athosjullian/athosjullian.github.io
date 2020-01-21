@@ -358,11 +358,7 @@ nav {
                         width: 93.8461%; /* 244px; */ /* 360px */
                         margin: 0 auto;
                         top: 8.3654%;
-        
-                        /* box-shadow: inset -30px -2px 30px rgba(18, 18, 18, .1),
-                                    inset 30px 2px 30px rgba(44, 44, 44, .8); */
-        
-        
+
                         background: linear-gradient(to bottom right, #242424, #181818 70%);
         
                         background-image: url(../assets/photo.png);
@@ -370,10 +366,6 @@ nav {
                         background-position: center;
                         background-size: contain;
         
-                        /* Brilho de tela;
-                        box-shadow: 1px 1px 40px #2c2c2c,
-                                    -1px -1px 40px #2c2c2c; 
-                        */
                     }
                 }  
             }
@@ -389,7 +381,6 @@ nav {
             justify-content: space-between;
             flex-direction: column;
             flex-wrap: wrap;
-
             
             & > div {
                 width: 98%;
@@ -427,6 +418,10 @@ nav {
                 
                 .projeto3 {
                     background-image: url(../assets/CFO.png);
+                }
+
+                .projeto4 {
+                    background-image: url(../assets/ex.jpg);
                 }
 
             }
@@ -635,10 +630,16 @@ footer {
             flex-direction: row;
             width: 100%;
             margin-top: 5%;
+            align-items: center;
         }
 
-        .btn-design {
+        .btn-design-1 {
             width: 100%;
+            margin-top: 25px;
+        }
+
+        .btn-design-2 {
+            width: 49%;
             margin-top: 25px;
         }
     }
